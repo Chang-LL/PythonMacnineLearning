@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d28c758e-612d-4f90-8fa6-685fd844a344</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonMacnineLearning.py</StartupFile>
+    <StartupFile>matplot.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonMacnineLearning.py" />
+    <Compile Include="matplot.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pd.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
